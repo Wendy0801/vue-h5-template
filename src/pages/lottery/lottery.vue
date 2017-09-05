@@ -1,6 +1,6 @@
 <template>
     <div>
-        <table>
+        <table  border="0" cellpadding="0" cellspacing="0">
             <tr>
                 <td :class="{active:index==1}"></td>
                 <td :class="{active:index==2}"></td>
