@@ -23,6 +23,12 @@ let config = [{
     path: '/detail/:id',
     meta: {},
     component: resolve => require(['@/pages/detail/detail'], resolve)
+},
+{
+    name: 'lottery',
+    path: '/lottery',
+    meta: {},
+    component: resolve => require(['@/pages/lottery/lottery'], resolve)
 }
 ]
 

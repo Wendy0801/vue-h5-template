@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+table{
+    width: 100%
+}
+table tr td{
+    width: 33.3%;
+    padding-top: 33.3%;
+    background: #ddd;
+}
+table tr td.btn{
+    background: #7AC3F8;
+}
+table tr td.active{
+    // border: 1px solid red;
+    background: #A4ED9F
+}

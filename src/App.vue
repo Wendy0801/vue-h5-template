@@ -11,7 +11,7 @@
     <mt-popup v-model="popupVisible" position="top" class="mint-popup-2" :class="popupClass" :modal="false">
       <p>{{message}}</p>
     </mt-popup>
-    {{isWechat}}
+    <!-- {{isWechat}}
     {{isApp}}
     {{userinfo.username}}
     <br>
@@ -19,9 +19,9 @@
     <br>
     <br>
     <br>
-    <br>
-    <button type="button" @click="addUserinfo()">测试添加vuex数据</button>
-    <button type="button" @click="changeUserinfo()">改变值</button>
+    <br> -->
+    <!-- <button type="button" @click="addUserinfo()">测试添加vuex数据</button>
+    <button type="button" @click="changeUserinfo()">改变值</button> -->
     </button>
   </div>
 </template>
@@ -68,23 +68,23 @@ export default {
   mounted() {
     // this.$_showtip('hello world')
     // alert(this.isWeiXin)
-    this.$_api.post({
-      ext: 'http://haokur.com/cross/test',
-      data: '1',
-      code: 2
-    })
-      .then(res => {
-        console.log(res)
-        console.log('请求结果')
-      })
-      .catch(err=>{
-        console.log('请求错误')
-        throw '错误'
-      })
-      .finally(()=>{
-        console.log('请求完成')
-        this.$_showtip('请求完成')
-      })
+    // this.$_api.post({
+    //   ext: 'http://haokur.com/cross/test',
+    //   data: '1',
+    //   code: 2
+    // })
+    //   .then(res => {
+    //     console.log(res)
+    //     console.log('请求结果')
+    //   })
+    //   .catch(err=>{
+    //     console.log('请求错误')
+    //     throw '错误'
+    //   })
+    //   .finally(()=>{
+    //     console.log('请求完成')
+    //     this.$_showtip('请求完成')
+    //   })
     this.$_cookie.set({
       token: '12313'
     })

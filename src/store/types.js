@@ -9,4 +9,5 @@ export const SET_PROJECT_LIST = 'SET_PROJECT_LIST'
 
 // user
 export const SET_USERINFO = 'SET_USERINFO'
+export const SET_LOTTERY_STATUS = 'SET_LOTTERY_STATUS'
 
